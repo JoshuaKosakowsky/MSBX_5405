@@ -1,6 +1,7 @@
-DROP DATABASE IF EXISTS Medical;
-CREATE DATABASE Medical;
-USE Medical;
+-- DROP, CREATE, and USE are all unnecesary for SQLite
+--DROP DATABASE IF EXISTS Medical;
+--CREATE DATABASE Medical;
+--USE Medical;
 
 DROP TABLE IF EXISTS ReferralEncounter;
 DROP TABLE IF EXISTS PatientInsurance;
